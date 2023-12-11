@@ -1,13 +1,8 @@
 import { Skeleton } from '@/components/skeleton'
-import { useSearchParams } from 'next/navigation'
 import { Suspense } from 'react'
 import { CurrentSearch } from './current-search'
 
 export default function SearchLoading() {
-  const searchParams = useSearchParams()
-
-  const query = searchParams.get('q')
-
   return (
     <div className="flex flex-col gap-4">
       <Suspense fallback={null}>
