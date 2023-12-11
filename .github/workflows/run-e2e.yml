@@ -14,10 +14,6 @@ jobs:
         with:
           node-version: 20
 
-      - run: npm ci
-
-      - run: npm test
-
       - name: Setup npm cache
         uses: actions/cache@v2
         with:
