@@ -73,7 +73,7 @@ export default async function ProductPage({ params }: ProductProps) {
             })}
           </span>
           <span className="text-sm text-zinc-400">
-            Em atá 12x de{' '}
+            Em até 12x de{' '}
             {(product.price / 12).toLocaleString('pt-BR', {
               style: 'currency',
               currency: 'BRL',
