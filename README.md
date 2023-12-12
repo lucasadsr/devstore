@@ -2,7 +2,7 @@
 
 <img src="./public/print.png" />
 
-Este é um projeto desenvolvido com Next.js, que utiliza novos conceitos da **App Router** como Server Components, Loading Pages e Layout. O projeto consiste em um e-commerce que consome uma [API](https://ignite-devstore-api.vercel.app/) de produtos.
+Este é um projeto desenvolvido com Next.js, que utiliza novos conceitos da **App Router** como Server Components, Loading Pages e Layout. O projeto consiste em um e-commerce que consome uma [API](https://ignite-devstore-api.vercel.app/api/products) de produtos.
 
 ## Funcionalidades Principais
 
